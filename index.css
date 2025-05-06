@@ -638,12 +638,12 @@ body{
       }
       
         .emg{
-            display: flex  ;
+            display: flex ;
             justify-content: center;
             align-items: center;
         }
 
-      .containeeer {
+      .containeeeer {
         display: flex;
         align-items: center;
         width: 80%;
@@ -661,7 +661,7 @@ body{
         justify-content: center;
         width: 50%;
       }
-      .right-column img {
+      .right-column>img {
         width:100%;
         background-size: cover;
         background-position: center;

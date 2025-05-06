@@ -607,3 +607,130 @@ body{
         height: auto;
         border-radius: 20px;
       }
+
+
+
+      /* actividades */
+
+      .hero-section {
+        background-color: #ffffff;
+        padding: 96px 24px;
+      }
+      
+      .hero-container {
+        max-width: 768px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      .hero-title {
+        font-size: 45px;
+        font-weight: bold;
+        color: #1e293b; /* slate-900 */
+        letter-spacing: -0.02em;
+        margin-bottom: 24px;
+      }
+      
+      .hero-description {
+        font-size: 18px;
+        line-height: 1.75;
+        color: #334155; /* slate-700 */
+      }
+      
+        .emg{
+            display: flex  ;
+            justify-content: center;
+            align-items: center;
+        }
+
+      .containeeer {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-between;
+      margin-bottom: 50px;
+      }
+      
+      .left-column {
+        width: 50%;
+      }
+      
+      .right-column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+      }
+      .right-column img {
+        width:100%;
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        border-radius: 20px;
+      }
+      
+      .features {
+        list-style: none;
+        padding: 0;
+        margin-top: 1.5rem;
+      }
+      
+      .features li {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+      }
+      
+      .features .icon {
+        width: 20px;
+        height: 20px;
+        fill: #0ea5e9;
+        flex-shrink: 0;
+      }
+      
+      .text-content {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: center;
+        font-family: 'Segoe UI', sans-serif;
+        color: #1e293b;
+      }
+      
+      .text-content h5 {
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #0ea5e9;
+        margin-bottom: 0.5rem;
+      }
+      
+      .text-content h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #0f172a;
+      }
+      
+      .text-content p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+        color: #334155;
+      }
+      
+      .info-content {
+        background-color: #f1f5f9;
+        border-left: 4px solid #0ea5e9;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+      }
+      
+      .info-content p {
+        margin: 0;
+        font-size: 1rem;
+        color: #475569;
+      }
+      
